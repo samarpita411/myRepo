@@ -1,4 +1,4 @@
 hello !
 It's a beautiful day.
 I am interested in develoing web application.
-blah blah blah... ! 
+blah blah ! 
