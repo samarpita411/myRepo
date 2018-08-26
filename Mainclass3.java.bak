@@ -1,0 +1,46 @@
+interface Phone
+{
+	public void call();
+
+	public void Sms();
+}
+
+class AndroidOs
+{
+public void showHomeScreen()
+	{
+     System.out.println("this is Android homescreen");
+    }
+
+} 
+
+class AndroidPhone extends AndroidOs
+                   implements Phone
+
+{
+	public void call()
+	{
+	System.out.println("Calling from phone");
+	
+	}
+
+	public void Sms()
+	{
+	System.out.println("sending sms from phone");
+	}
+
+}
+
+
+class Mainclass3
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Program starts");
+        AndroidPhone p1= new AndroidPhone();
+		p1.call();
+		p1.Sms();
+
+		System.out.println("Program ends");
+	}
+}
